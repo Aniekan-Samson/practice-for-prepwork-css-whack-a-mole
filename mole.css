@@ -1,9 +1,69 @@
 /* Your code here */
+.wgs{
+  position: relative;
+  height: 241px;
+  /* height was 482px / 2 = 241px */
+  width: 320px;
+
+  /* width was 640px / 2 = 320px */
+  display: inline-block;
+  overflow: hidden;
+  /* left: 376px; */
+}
+
+.wgs__dirt-pile{
+  position: absolute;
+  width: 320px;
+  /* width former was 640px / 2 = 320px */
+  height: 110px;
+
+  /* height former was 220px / 2 = 110px */
+  top: 131px;
+  /* top former was 262px / 2 = 131px */
+  bottom: 0;
+
+}
+
+.wgs__mole-head {
+  position: absolute;
+  width: 188px;
+  /* width former was 376px / 2 = 188px */
+  height: 178px;
+  /* height former was 356px / 2 = 178px */
+  left: 54.5px;
+  /* left former was 109px / 2 = 54.5px */
+  transition: margin-top 0.25s;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 241px;
+  /* former was 482px / 2 = 241px */
+
+}
+
+.pf {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 200px 200px;
+  row-gap: 50px;
+  column-gap: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -12,17 +72,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+}
 
-/* .sb__mole-counter {
+ .sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+ .sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
-/* .sb__game-over--hidden {
+ .sb__game-over--hidden {
   display: none;
-} */
+}
